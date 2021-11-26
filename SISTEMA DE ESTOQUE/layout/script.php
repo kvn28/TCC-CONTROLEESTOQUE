@@ -23,22 +23,13 @@ $head = '<!DOCTYPE html>
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="' . $url . 'dist/css/skins/_all-skins.min.css">
 
-  <!-- Date Picker -->
-  <link rel="stylesheet" href="' . $url . 'plugins/datepicker/datepicker3.css">
-  <!-- Daterange picker -->
-  <link rel="stylesheet" href="' . $url . 'plugins/daterangepicker/daterangepicker.css">
-
-  <link rel="stylesheet" href="' . $url . 'plugins/datatables/dataTables.bootstrap.css">
   
   
-  
-  <!-- bootstrap wysihtml5 - text editor -->
-  <link rel="stylesheet" href="' . $url . 'plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
   <script src="https://apis.google.com/js/platform.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
 
-
+																							  
 
 
 
@@ -99,22 +90,13 @@ $javascript = '
 </script>
 <!-- Bootstrap 3.3.6 -->
 <script src="' . $url . 'bootstrap/js/bootstrap.min.js"></script>
-<!-- daterangepicker -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
-<script src="' . $url . 'plugins/daterangepicker/daterangepicker.js"></script>
-<!-- datepicker -->
-<script src="' . $url . 'plugins/datepicker/bootstrap-datepicker.js"></script>
-<!-- Bootstrap WYSIHTML5 -->
-<script src="' . $url . 'plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-<!-- Slimscroll -->
-<script src="' . $url . 'plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<!-- FastClick -->
-<script src="' . $url . 'plugins/fastclick/fastclick.js"></script>
+
+
+
 <!-- AdminLTE Conexao -->
 <script src="' . $url . 'dist/js/app.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="' . $url . 'dist/js/demo.js"></script>
-<script src="' . $url . 'plugins/datatables/jquery.dataTables.min.js"></script>
+																 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 <script src="' . $url . 'plugins/bootbox.js"></script>
@@ -123,5 +105,3 @@ $javascript = '
 </body>
 </html>
 ';
-
-
