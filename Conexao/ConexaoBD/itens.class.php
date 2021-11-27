@@ -97,8 +97,8 @@
             echo  '<td><center><b><span style="color:green">Não Possui Vencimento<span></b></center></td>';
           }
           echo '
-          <td><center>' . $row['QUANT'] . '</center></td>
-          <td><center>' . $dataCompra . '</center></td>
+          <td><center>' . $row['VLUNIT'] . '</center></td>
+          <td><center>' . $row['VLVEND']  . '</center></td>
           <td>
                 <a href="retiradaItens.php?q=' . $row['IDITEM'] . '"><center><i class="fa fa-sign-out"></i></center></a>
           </td>';
